@@ -1,4 +1,4 @@
-
+# create list of tuples with most commits sent, both forward and reverse
 fh = open('../mbox-short.txt', 'r')
 emails = {}
 
