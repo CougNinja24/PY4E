@@ -7,10 +7,10 @@ for echlne in fh:
 		addr = echlne.split()[1]
 		emails[addr] = emails.get(addr,0) + 1
 		
-largest = None; kval = 0
+largest = None; key = 0
 for k in list(emails.keys()):
     if largest is None or emails[k] > largest:
-        largest, kval = emails[k], k
+        largest, key = emails[k], k
         print(emails[k])
     
 sort_list = []

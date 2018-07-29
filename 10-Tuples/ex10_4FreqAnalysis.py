@@ -1,5 +1,5 @@
 
-#Freq Analysis
+#Freq Analysis, need to add def in this file for stringcleaning
 import string
 from stringcleaning import str_cleaner as SC
 
