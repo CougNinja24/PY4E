@@ -1,0 +1,4 @@
+#powerpoint files
+*.ppt*
+#zip files
+*.(zip|rar)
